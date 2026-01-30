@@ -28,3 +28,13 @@ PDF → Text Splitting → Embeddings → ChromaDB → Query → Response
 ```bash
 git clone https://github.com/Venu-Gopal04/rag-agentic-ai-chatbot.git
 cd rag-agentic-ai-chatbot
+
+>2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Run the project
+
+python ingest.py
+
+python query.py
